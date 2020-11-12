@@ -11,6 +11,7 @@ Add-SNMPTrafficSensor
    [[-device] <PrtgAPI.Device[]>]
    [[-propertiesfilter]<string[]>]
    [[-valuefilter]<string[]>]
+   [[-logfile]<string[]>]
    [<CommonParameters>]
 ```
 <br>
@@ -27,7 +28,7 @@ The value contains the name and will filter based on the string provided. If you
 ```powershell
 Add-SNMPTrafficSensor $device "Connected" "*Uplink*" $logfile
 ```
-Add all interfaces which are connected and the description of the port contains "Uplink"
+Add all interfaces which are connected and the description of the port contains "Uplink" and specify an own logfile path.
 
 #### TO DO:
 - make settings customizable
