@@ -5,7 +5,7 @@ PRTG Scripts and custom functions for the [PrtgAPI](https://https://github.com/l
 
 ### Add-SNMPTrafficSensor
 
-**Adds the SNMP traffic sensors to a specific device.**
+Adds the SNMP traffic sensors to a specific device.
 ```powershell
 Add-SNMPTrafficSensor
    [[-device] <PrtgAPI.Device[]>]
