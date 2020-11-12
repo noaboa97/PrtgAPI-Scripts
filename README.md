@@ -15,7 +15,6 @@ Add-SNMPTrafficSensor
    [<CommonParameters>]
 ```
 <br/>
-<br/>
 
 **-propertiesfilter** <br>
 The properties contain: Internal name, Name, Status, speed as an array and will filter based on the string provided.
