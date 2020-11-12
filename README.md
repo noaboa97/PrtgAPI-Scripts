@@ -5,7 +5,7 @@ PRTG Scripts and custom functions for the [PrtgAPI](https://https://github.com/l
 
 ### Add-SNMPTrafficSensor
 
-Adds the SNMP traffic sensors to a specific device.
+**Adds the SNMP traffic sensors to a specific device.**
 ```powershell
 Add-SNMPTrafficSensor
    [[-device] <PrtgAPI.Device[]>]
@@ -14,16 +14,18 @@ Add-SNMPTrafficSensor
    [[-logfile]<string[]>]
    [<CommonParameters>]
 ```
-<br>
-<br>
+<br/>
+<br/>
+
 **-propertiesfilter** <br>
 The properties contain: Internal name, Name, Status, speed as an array and will filter based on the string provided.
-<br>
-<br>
+<br/>
+<br/>
+
 **-valuefilter**<br>
 The value contains the name and will filter based on the string provided. If you don't wanna filter put a wildcard. Also use Wildcards with the search string if you just wanna filter on some characters. 
-<br>
-<br>
+<br/>
+<br/>
 
 ```powershell
 Add-SNMPTrafficSensor $device "Connected" "*Uplink*" $logfile
