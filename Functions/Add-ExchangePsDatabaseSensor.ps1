@@ -6,13 +6,6 @@ function Add-ExchangePsDatabaseSensor{
             [string]$logfile = "C:\Scripts\PRTG\Logs\LOG_Add-ExchangePsDatabaseSensor.txt"
         )
 
-    # TO DO:
-    # - Test the new features
-    # - make settings customizable
-    # - make removal of voltages, other and currents sensor optional
-    # - Synopsis
-    # - Comment code
-
     If (!(Test-Path $logfile)) {New-Item -Path $logfile -Force}
        
 
