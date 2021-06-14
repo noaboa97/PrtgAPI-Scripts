@@ -1,5 +1,5 @@
 # PrtgAPI-Scripts
-PRTG Scripts and custom functions for the [PrtgAPI](https://https://github.com/lordmilko/PrtgAPI)
+PRTG Scripts and custom functions for the [PrtgAPI](https://github.com/lordmilko/PrtgAPI)
 
 ## Functions
 
