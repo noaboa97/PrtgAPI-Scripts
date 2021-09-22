@@ -70,35 +70,35 @@ Administrative Rights<br/>
 **defaulthome**       <br/>
 PRTGHome Page URL
 <br/>
-**isadgroup**  <br/>
+**-isadgroup**  <br/>
 Active Directory or Single Sign-On Integration<br/>
 0 - Do not use Active Directory or single sign-on integration (default)<br/>
 1 - Use Active Directory integration<br/>
 2 - Use single sign-on integration (not supported)<br/>
 <br/>
-**ssogroupaccessclaim**<br/>
+**-ssogroupaccessclaim (not supported)**<br/>
 Haven't been able to checkout SSO. So currently not supported. You could edit the function directly.    <br/>
 <br/>
-**adgroup**        <br/>  
+**-adgroup**        <br/>  
 Active Directory Group Name<br/>
 <br/>
-**usertype**        <br/>
+**-usertype**        <br/>
 User Type<br/>
 0 - Read/write user (default)<br/>
 1 - Read-only user<br/>
 <br/>
-**userack**<br/>
+**-userack**<br/>
 Acknowledge Alarms<br/>
 0 - User cannot acknowledge alarms (default)<br/>
 1 - User can acknowledge alarms<br/>
 <br/>
-**allowedsensorsmode**<br/>
+**-allowedsensorsmode**<br/>
 Allowed Sensors<br/>
 0 - Users can create all sensors (default)<br/>
 1 - Users can only create certain sensors<br/>
 Currently not supported to choose which sensors<br/>
 <br/>
-**ticketmode**    <br/>
+**-ticketmode**    <br/>
 0 - Users cannot use the ticket system (default)<br/>
 1 - Users can use the ticket system<br/>
 <br/>
