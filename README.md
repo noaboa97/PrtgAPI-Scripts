@@ -79,7 +79,7 @@ Active Directory or Single Sign-On Integration<br/>
 **-ssogroupaccessclaim (not supported)**<br/>
 Haven't been able to checkout SSO. So currently not supported. You could edit the function directly.    <br/>
 <br/>
-**-adgroup**        <br/>  
+**-adgroup**<br/>  
 Active Directory Group Name<br/>
 <br/>
 **-usertype**        <br/>
@@ -103,7 +103,7 @@ Currently not supported to choose which sensors<br/>
 1 - Users can use the ticket system<br/>
 <br/>
 <br/>
-To create a new group with AD integration and Read-only
+To create a new group with AD integration and Read-only<br/>
 **Example**
 ```powershell
 New-PrtgUsergroup -name Test123  -isadgroup 1 -adgroup YOURADGROUP -usertype 1
