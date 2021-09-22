@@ -68,7 +68,7 @@ Administrative Rights<br/>
 1 - Give user group members administrative rights<br/>
 <br/>
 **defaulthome**       <br/>
-PRTGHome Page URL
+PRTGHome Page URL<br/>
 <br/>
 **-isadgroup**  <br/>
 Active Directory or Single Sign-On Integration<br/>
@@ -79,10 +79,10 @@ Active Directory or Single Sign-On Integration<br/>
 **-ssogroupaccessclaim (not supported)**<br/>
 Haven't been able to checkout SSO. So currently not supported. You could edit the function directly.    <br/>
 <br/>
-**-adgroup**<br/>  
+**-adgroup**<br/>
 Active Directory Group Name<br/>
 <br/>
-**-usertype**        <br/>
+**-usertype**<br/>
 User Type<br/>
 0 - Read/write user (default)<br/>
 1 - Read-only user<br/>
